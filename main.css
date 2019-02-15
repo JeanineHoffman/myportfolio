@@ -7,15 +7,21 @@
   sans-serif; 
   font-size: 20px;
   color: #444;
-  text-align: center;
+  /* text-align: center; */
   line-height: 1.5;
 } 
-
+h2 {
+  text-align:center; 
+  padding-top: 0%;
+}
+/* finished */
 nav,
 footer {
   padding: 1% 0;
   background-color: #C8E6C9;
+  text-align: center;
 }
+/* finished */
 nav {
   position: fixed;
   top: 0;
@@ -25,7 +31,7 @@ nav {
   
 }
 
-/* needed to be finished */ 
+/* finished */ 
 .navbtn {
   display: -ms-inline-flexbox;
   background-color: #2E7D32;
@@ -38,26 +44,58 @@ nav {
   
 }
 
-/* article {
-  background-color: #bbb;
-} */
+/* finished*/
+.bio {
+  background-color: #DCEDC8;
+  width: 60%;
+  margin-top: 10%;
+  text-decoration-color: darkslategrey;
+  border: 5px solid #FBC02D;
+  padding: 1rem;
+} 
 
 
+/* finished */
+.js-projects{
+  width: 75%;
+  height: 50%;
+  padding: 1rem;
+  background-color: rgb(181, 208, 221);
+  border: 5px solid rgb(40, 95, 19);
+  margin-top: 15%;
+  margin-right: 0;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
 /* placement/size and styling to be finished */
-/* .js-projects{
-  
-  width: 90%;
-  padding: 6% 0;
-  background-color: #B0BEC5;
-} */
-/* placement/size and styling to be finished */
-/* .contact {
-  display: inline-flexbox;
-  background-color: #C8E6C9;
-  border: 1px solid black;
-  width: 40%;
-  
-} */
+.contact {
+  background-color: #E8F5E9;
+  border: 5px solid #d32f2f;
+  width: 25%;
+  margin-top: 18%;
+  margin-bottom: 5rem;
+  margin-left: 5%;
+  padding:1rem;
+}
+
+.email{
+  height: 6rem;
+  width: 6rem;
+}
+.github {
+  height: 6rem;
+  width: 6rem;
+}
+.linkedin{
+  height: 6rem;
+  width: 6rem;
+}
+.slack {
+  height: 6rem;
+  width: 6rem;
+}
+
+
 /* placement/size and styling to be finished */
 /* .showoff{
   display: -ms-inline-flexbox;
