@@ -25,7 +25,7 @@ function navBtn(){
   });
 }
 
-
+// test of git
 function projects(){
   $(img).on('click', function(){
     
