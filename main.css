@@ -2,72 +2,171 @@
   box-sizing: border-box;
 }
 /* placement/size and styling to be finished */
-body {
-  font-family: "Open Sans",
+* body {
+  font-family: 'open dyslexic',
   sans-serif; 
   font-size: 20px;
   color: #444;
-  text-align: center;
-  line-height: 1.5;
-  background-color: #C8E6C9;
+  /* text-align: center; */
+  line-height: 2;
+  background-color: EEEEEE;
+} 
+.pdxbridge{
+  width: 100%;
+  max-height: 18rem;
+  margin-top: 5%;
 }
 
+h2 {
+  text-align:center; 
+  padding-top: .5rem;
+}
+/* finished */
 nav,
 footer {
   padding: 1% 0;
-  background-color:#E0E0E0;
+  background-color: E8F5E9;
+  text-align: center;
 }
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  
-}
+/* finished */
 nav {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
+  font-size: 1.5rem;
 }
 
-article {
-
-  background-color: #bbb;
-}
-
-
-/* placement/size and styling to be finished */
-.js-projects{
-  
-  width: 90%;
-  padding: 6% 0;
-  background-color: #B0BEC5;
-}
-/* placement/size and styling to be finished */
-.contact {
-  display: inline-flexbox;
-  background-color: #C8E6C9;
-  border: 1px solid black;
-  width: 40%;
- 
-}
-/* placement/size and styling to be finished */
-.showoff{
-  display: -ms-inline-flexbox;
-  float: right;
-  min-height: 200px;
-  padding: 6% 0;
-  background-color: #FFF59D;
-  width: 60%;
-}
-/*  space between needed to be finished */
+/* finished */ 
 .navbtn {
+  display: -ms-inline-flexbox;
   background-color: #2E7D32;
-  color: #212121;
+  color: #EEEEEE;
+  z-index: 10;
   padding: 1.5% 1.5%;
   border-radius: 25px;
-  display: -ms-flexbox;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+/* finished*/
+.bio {
+  background-color: #DCEDC8;
+  width: 60%;
+  margin-top: 5%;
+  text-decoration-color: darkslategrey;
+  border: 5px solid #FBC02D;
+  padding: 1rem;
+  margin-left: 1rem;
   
+} 
+
+
+/* finished */
+.js-projects{
+  width: 75%;
+  height: 50%;
+  padding: 1rem;
+  background-color: E8F5E9;
+  border: 5px solid rgb(40, 95, 19);
+  margin-top: 15%;
+  margin-right: 1rem;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.container{
+  width: 100%;
+ /* border: 1px solid black; */
+  margin-bottom: 5rem;
+  margin-top: 15%;
+  padding: 1rem;
+}
+
+
+/* placement/size and styling to be finished */
+.contact {
+  background-color: #E8F5E9;
+  border: 5px solid #d32f2f;
+  width: 20%;
+  margin-top: 18%;
+  margin-bottom: 5rem;
+  margin-left: 5%;
+  padding:1rem;
+  align-items: center;
+ 
+}
+
+.email{
+  height: 6rem;
+  width: 6rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
+ 
+}
+.github {
+  height: 6rem;
+  width: 6rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+.linkedin{
+  height: 6rem;
+  width: 6rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+.slack {
+  height: 6rem;
+  width: 6rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+
+.triangle {
+  float: right;
+  width: 40rem;
+  height: 60rem;
+  margin-top: -40rem;
+  margin-bottom: 4rem;
+  margin-right: 5rem;
+  float: right;
+  clear: both;
+}
+/* placement/size and styling to be finished */
+/* .showoff{
+  display:flexbox;
+  float: right;
+  width:2px;
+  height:2px;
+  background-color: #FBC02D; 
+  border-top: 40% solid gray;
+  border-left: 40% solid gray; 
+  border-bottom: 40% solid rgb(11, 66, 16);
+  border-right: 40% solid gray;
+  margin-bottom: 5rem;
+  margin-right: 10%;
+} */
+ 
+ /* .triangle {
+  width: 40rem;
+  height: 35rem;
+  background-color: #FFC400;
+  margin-top: -40rem;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
+  float: right;
+   opacity: 0.4;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  clear: both;
+}     */
+
+
+footer {
+ border: 1px solid lightgrey;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
 }
