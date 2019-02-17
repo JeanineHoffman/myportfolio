@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+* body {
+  font-family: 'open dyslexic',
+  sans-serif; 
+  font-size: 20px;
+  color: #444;
+  /* text-align: center; */
+  line-height: 2;
+  background-color: EEEEEE;
+} 
+header{
+  display: flex;
+  align-content: left;
+  color: #2E7D32;
+  font-size: 2rem;
+  /* z-index: 10; */
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+nav{
+  position: fixed;
+  font-size: 1.5rem;
+  color: #2E7D32;
+  font-size: 1.5rem;
+}
+
+.projectsnavbtn{
+  background-color: #FBC02D;
+  color: #2E7D32;
+  font-size: 2rem;
+  border:2px solid #2E7D32;
+  border-radius: 5px;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: E8F5E9;
+  text-align: center;
+}
+
+#foodquizinfo {
+  text-align: justify;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+  border: 5px solid #FBC02D;
+  padding: 2rem;
+  border-radius: 5px;
+  margin-bottom: 12%;
+}
+
+footer {
+  margin-bottom: 0;
+
+  align-content: center;
+}
