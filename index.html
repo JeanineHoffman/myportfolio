@@ -5,57 +5,75 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
-  <title>Jeanine Hoffman, Software Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <link rel="html" type="text/html" href="projects.html">
+  <link rel="stylesheet" type="text/css" media="screen" href="projects.css">
+  <title>Jeanine Hoffman, Software Engineer</title>
 </head>
 <body>
   <!-- need to finish buttons and link to correct
   sections below -->
-<nav role="navigation">
-  <button class="navbtn" type="" aria-roledescription="goto-biography">About Me</button><button class="navbtn"type="" aria-roledescription="Projects">Projects</button>Jeanine Hoffman, software engineer<button class="navbtn" type=""
- aria-roledescription="Contact Me">Contact Me</button><button class="navbtn" type="" aria-roledescription="My Forté">My Forté</button>
+  <header role="banner">
+    <h1>Jeanine Hoffman, software engineer</h1>
+  </header>
+    <nav id="nav" role="navigation">
+    <a href="#bio" <button class="navbtn" id="1" type="click" aria-roledescription="goto-biography">About Me</button></a>
+  <a href="#projects"  <button class="navbtn" id="2" type="click" aria-roledescription="Projects">Projects</button></a>
+  <a href="#container"  <button class="navbtn" id="3" type="click" aria-roledescription="Contact Me">Contact Me</button></a>
+  <a href="#container" <button class="navbtn" id="4" type="click" aria-roledescription="My Forté">My Forté</button></a>
 </nav>
-<img class= "pdxbridge" src="img/railbridge.jpeg" alt="picture of an evening Portland Oregon skyline with a bridge spanning one of the rivers.">
+<img class= "pdxbridge" src="img/railbridge.jpeg" alt="picture of the Portland-Milwaukie light rail bridge in Oregon,  spanning one of the rivers.">
 <figcaption>Portland-Milwaukie Light Rail Bridge attr:eloyan.com</figcaption>
 
-<!-- skipping banner outside of nav bar
-will be reshaping and placing sections to  more closly resemble my previous ideas-->
-  <article class="bio" role="biography">
+  <article class="bio" id="bio" role="biography">
     <h2>A little about me</h2>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nobis sunt quia repudiandae iure inventore quod eligendi, a, atque sapiente ullam molestiae. Dolores, quibusdam. Dolorum quis nemo accusantium quasi eaque!
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia suscipit repudiandae amet sapiente. Maxime ex molestiae cum, distinctio quae ea fuga aut harum, voluptas repellat corrupti quaerat animi ab officia.</p>
+    <p> I love change and challenges. When my sister got interested in web development, she started planting seeds. From Free Code Camp, EdX, and Udemy all the way through the Thinkful process I’ve found myself struggling then growing. I love to read but now I love to read about how to learn a new programming language or skill. I still love to cook but my journey has led me to many new experiences.</p>
+    
+    <p>When we moved to Portland, I was able to secure season tickets to the Portland Thorns. As a Timbers and Thorns fan, I joined the 107ist Supporters group. I spend some of my time now giving back to the community through volunteer efforts that support the growth of soccer and equality throughout our area. Programming, especially with an eye towards making things accessible to all, is my current passion. The great thing about tech and me is that we both grow and change with time. Seems like I found my niche.</p>
   </article>
+  <!-- <a href="#nav"><p>top</p></a> -->
 
-<section class = "js-projects">
+<section class="js-projects" id="projects">
   <h2>Things I've Built</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci earum quia minima expedita aliquam dolor ut veniam dicta optio id molestiae inventore iste placeat, maxime pariatur repellendus amet sapiente nam?</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius non eos deserunt pariatur soluta officiis? Tempore voluptate velit, maiores, amet beatae tenetur error dolor mollitia vero quisquam ullam assumenda consectetur?</p>
+  <div class="quiz1">
+    <a href="https://nw-iguana.github.io/ryanjeanine-quiz-app/" target="_blank"><img class="quiz1img" src="img/quizapp1.jpg" alt="picture of a restaurant, tables cloth covered." title="restaurant interior">
+    </a>
+    <a href="projects.html" target="_blank"><p>Learn about the project Food Origin quiz.</p></a>
+    <a href="https://github.com/JeanineHoffman/ryanjeanine-quiz-app.git" target="_blank">   <p>See the code for Food Originquiz.</p></a>
+  </div>
 </section>
-  <section class="container">
-    <section class = "contact">
+<!-- <a href="#nav"><p>top</p></a> -->
+
+  <div class="container" id="container">
+    <section class="contact" id="contact">
       <h2>Find me:</h2>
       <a href="mailto:jeaninehoffman42@gmail.com">
-        <img class="email" src="img/email.jpeg" alt="email link">
-        <a href="https://github.com/JeanineHoffman">
-          <img class="github" src="img/github.png" alt="Github link">
-          <a href="https://linkedin.com/jeanine-hoffman-841032180">
-            <img class="linkedin" src="img/linkedin.jpeg" alt="LinkedIn link">
-            <a href="https://thinkful.slack.com/messages/@UD7T30FJB">
-              <img class="slack" src="img/slack.png" alt="Slack link">
+        <img class="email" src="img/email.jpeg" alt="email link"></a>
+      <a href="https://github.com/JeanineHoffman">
+        <img class="github" src="img/github.png" alt="Github link"></a>
+      <a href="https://linkedin.com/jeanine-hoffman-841032180">
+        <img class="linkedin" src="img/linkedin.jpeg" alt="LinkedIn link"></a>
             </section>
             
-    <section class="triangle">
+    <section class="triangle" id="tri">
       <img src="img/triimg.svg" alt ="light gray triangle with icons for programming skills I have learned. JavaScript, CSS, JavaScript">
     </section>
-</section>
+  </div>
+  <!-- <a href="#nav"><p>top</p></a> -->
+
+<div class="quote">
+  <article aria-label="A favorite quote">
+    <quote>“I may not have gone where I intended to go, but I think I have ended up where I needed to be.” 
+      ― douglas adams, The Long Dark Tea-Time of the Soul</quote>
+  </article>
+</div>
+<footer role="contentinfo">Jeanine Hoffman © 2019</footer>
 
 <script src="//code.jquery.com/jquery.min.js"></script>
   <script src="main.js"></script>
 </body>
-<!-- why is this linking to slack? -->
-<footer role="contentinfo">Jeanine Hoffman © 2019</footer>
+
 </html>
