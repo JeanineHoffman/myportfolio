@@ -4,7 +4,7 @@
 }
 
 * body {
-  font-family: 'open dyslexic',
+  font-family: 'open dyslexic', 'Exo' 
   sans-serif; 
   font-size: 20px;
   color: #444;
@@ -22,10 +22,14 @@ footer {
 }
 
 header{
-  display: flex;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: unset;
   align-content: left;
+  line-height: .2;
   color: #2E7D32;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  padding: 0;
   margin-top: 10%;
 }
 nav{
@@ -37,6 +41,7 @@ nav{
   font-size: 1.5rem;
   color: #2E7D32;
   font-size: 2rem;
+  background-color: #E8F5E9;
 }
 
 .navbtn {
@@ -56,6 +61,10 @@ nav{
 }
 figcaption{
   color:#2E7D32;
+  font-size: .8rem;
+  margin-left: 90%;
+  margin-top: -7%;
+
 }
 h2 {
   text-align:center; 
@@ -65,25 +74,26 @@ h2 {
 /* finished*/
 .bio {
   background-color: #DCEDC8;
-  width: 70%;
-  margin-top: 5%;
+  width: 80%;
+  margin-top: 8%;
   text-decoration-color: darkslategrey;
   border: 5px solid #FBC02D;
   padding: 1rem;
-  margin-left: 1rem;  
+  margin-left: 3rem;  
 } 
 
 
 /* finished */
 .js-projects{
-  width: 70%;
+  display: flex;
+  width: 50%;
   height: 50%;
   padding: 1rem;
   background-color: E8F5E9;
   border: 5px solid rgb(40, 95, 19);
   margin-top: 15%;
-  margin-right: 5rem;
-  margin-left: 30%;
+  /* margin-right: 3rem; */
+  margin-left: 45%;
   margin-bottom: 5%;
 }
 
