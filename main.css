@@ -4,7 +4,7 @@
 }
 
 * body {
-  font-family: 'open dyslexic', 'Exo' 
+  font-family: 'open dyslexic', 'Exo', 
   sans-serif; 
   font-size: 20px;
   color: #444;
@@ -31,6 +31,7 @@ header{
   /* font-size: 1.5rem; */
   padding: 0;
   margin-top: 10%;
+  font-size: 2.5rem;
 }
 nav{
   position: fixed;
@@ -92,22 +93,53 @@ h2 {
   background-color: E8F5E9;
   border: 5px solid rgb(40, 95, 19);
   margin-top: 15%;
-  /* margin-right: 3rem; */
-  margin-left: 45%;
+  margin-right: 0%;
+  margin-left: 25%;
   margin-bottom: 5%;
+  text-align: justify;
+  color: #2E7D32;
+}
+.js-projects h2{
+  margin-bottom: -2rem;
 }
 
-p .quiz1 {
-font-size: 1rem;
- 
+.projectsnavbtn{
+  background-color: #FBC02D;
+  color: #2E7D32;
+  font-size: 1.5rem;
+  border:2px solid #2E7D32;
+  border-radius: 5px;
+  margin-bottom: 4%;
+  margin-top: 3%;
+}
+
+.projectCodebtn{
+  background-color: red;
+  color: black;
+  font-size: 1.5rem;
+  border:2px solid red;
+  border-radius: 5px;
+  margin-bottom: 4%;
+  margin-top: 3%;
+}
+ul img{
+  margin-top: 15%;
+  width: 25%;
   
 }
+ul {
+  list-style-type: none;
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
 
 .quiz1img{
-  width: 7rem;
-  height: 7rem;
-  border: 2px solid darkgray;
-  margin-left: 10%;
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid #2E7D32;
+  margin-left: 15%;
 }
 
 .container{
