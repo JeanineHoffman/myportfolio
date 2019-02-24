@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
+  display: flexbox;
 }
 
 * body {
@@ -10,10 +11,8 @@
   color: #444;
   /* text-align: center; */
   line-height: 2;
-  background-color: EEEEEE;
+  background-color: #E8F5E9;
 } 
-
-
 
 nav,
 footer {
@@ -22,27 +21,12 @@ footer {
   text-align: center;
 }
 
-header{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-content: left;
-  line-height: 1.9rem;
-  color: #2E7D32;
-  /* font-size: 1.5rem; */
-  padding: 0;
-  margin-top: 10%;
-  font-size: 2.5rem;
-}
-nav{
-  position: fixed;
-  top: 5%;
-  left: 43%;;
-  right: 0;
-  /* z-index: 10; */
+.navbox{
+ display: flexbox;
+  width: 100%;
+  margin: 0, auto;
   font-size: 1.5rem;
   color: #2E7D32;
-  font-size: 2rem;
   background-color: #E8F5E9;
 }
 
@@ -52,26 +36,45 @@ nav{
   padding: 1.5% 1.5%;
   margin-right: 5%;
   border-radius: 25px;
-  font-size: 1.5rem;
+  margin-left: 0;
+  font-size: 2rem;
   margin-top: 2rem;
 }
 
-.pdxbridge{
+
+header{
   width: 100%;
-  max-height: 18rem; 
-  margin-top: 5%;
+  line-height: 1.8em;
+  color: #2E7D32;
+  padding:0;
+  margin-top: 2em;
+  font-size: 2.5rem;
 }
-figcaption{
+
+.imgcontainer{
+  display: inline-flexbox;
+}
+.pdxbridge{
+  /* display: inline-flexbox; */
+  width: 100%;
+  max-height: 18em;
+  margin-top: 15%;
+}
+
+ figcaption {
+  display: inline-flexbox;
+  width: 100%;
   color:#2E7D32;
-  font-size: .8rem;
-  margin-left: 90%;
-  margin-top: -7%;
-}
+  font-size: .5rem;
+  padding-left: 1rem;
+  margin-top: -9%;
+  margin-bottom: 20%;
+} 
 
 h2 {
   text-align:center; 
-  padding-top: .5rem;
-  font-size: 2rem;
+  padding-top: .5em;
+  font-size: 2em;
 }
 
 /* finished*/
@@ -81,8 +84,8 @@ h2 {
   margin-top: 8%;
   text-decoration-color: darkslategrey;
   border: 5px solid #FBC02D;
-  padding: 1rem;
-  margin-left: 3rem;  
+  padding: 1em;
+  margin-left: 3em;  
 } 
 
 
@@ -91,7 +94,7 @@ h2 {
   display: flex;
   width: 70%;
   height: 50%;
-  padding: 1rem;
+  padding: 1em;
   background-color: E8F5E9;
   border: 5px solid rgb(40, 95, 19);
   margin-top: 15%;
@@ -102,131 +105,131 @@ h2 {
   color: #2E7D32;
 }
 .js-projects h2{
-  margin-bottom: -2rem;
+  margin-bottom: -2em;
 }
 
 .projectsnavbtn{
   background-color: #FBC02D;
   color: #2E7D32;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border:2px solid #2E7D32;
   border-radius: 5px;
   margin-bottom: 4%;
   margin-top: 3%;
 }
-
+/* 
 .projectCodebtn{
   background-color: red;
   color: black;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border:2px solid red;
   border-radius: 5px;
   margin-bottom: 4%;
   margin-top: 3%;
-}
-.quiz1 h2{
+} */
+/* .quiz1 h2{
   text-align:center; 
-  padding-top: .5rem;
+  padding-top: .5em;
   font-size: 3em;
-}
+} */
 
-ul {
+/* ul {
   width:50%;
   list-style-type: none;
-  margin-top: 1rem;
-  font-size: 1rem;
-  padding: 1rem;
-}
-.project-title{
-  font-size: 1.5rem;
-}
-
+  margin-top: 1em;
+  font-size: 1em;
+  padding: 1em;
+} */
+/* .project-title{
+  font-size: 2rem;
+} */
+/* 
 .quiz1img{
-  width: 10rem;
-  height: 10rem;
+  width: 10em;
+  height: 10em;
   border: 2px solid #2E7D32;
   margin:0, auto;
-}
-.project-li{
+} */
+/* .project-li{
   width:50%;
   margin: 0, auto;
-}
-.container{
+} */
+/* .container{
   width: 100%;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 1em;
+  margin-top: 1em;
   display:flex;
   flex-direction: row;
   padding: 0;
-  margin-top: 3rem;
-  padding: 3rem;
-  }
+  margin-top: 3em;
+  padding: 3em;
+  } */
 
 
 /* placement/size and styling to be finished */
-.contact {
+/* .contact {
   background-color: #E8F5E9;
   border: 5px solid #d32f2f;
   width: 20%;
   height: 7%;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-  padding-bottom: 3rem;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  padding-bottom: 3em;
   margin-left: 5%;
   align-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-}
+} */
 
-.contact img{
-  height: 3rem;
-  width: 3rem;
+/* .contact img{
+  height: 3em;
+  width: 3em;
   align-items: center;
   padding:0;
   margin: 0;
 }
 
 .email{
-  height: 6rem;
-  width: 6rem;
-  margin-right: 2rem;
-  margin-left: 3rem;
+  height: 6em;
+  width: 6em;
+  margin-right: 2em;
+  margin-left: 3em;
  
 }
 .github {
-  height: 6rem;
-  width: 6rem;
-  margin-right: 2rem;
-  margin-left: 3rem;
+  height: 6em;
+  width: 6em;
+  margin-right: 2em;
+  margin-left: 3em;
 }
 .linkedin{
-  height: 6rem;
-  width: 6rem;
-  margin-right: 2rem;
-  margin-left: 3rem;
-}
+  height: 6em;
+  width: 6em;
+  margin-right: 2em;
+  margin-left: 3em;
+} */
 
-.triangle {
-  width: 40rem;
-  margin-right: 5rem;
-  margin-left: 17rem;
+/* .triangle {
+  width: 40em;
+  margin-right: 5em;
+  margin-left: 17em;
   align-self: center;
-}
+} */
 /* placement/size and styling to be finished */
-.quote{
-  margin-right: 2rem;
+/* .quote{
+  margin-right: 2em;
   margin-bottom: 5%;
   margin-left: 30%;
   margin-top: 0;
   width: 60%;
   line-height: 2.3;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color:rgb(40, 95, 19);
   color: #EEEEEE;
-  padding: 3rem;
+  padding: 3em;
   text-justify: newspaper;
-}
+} */
 
 
 footer {
@@ -234,26 +237,33 @@ footer {
   margin: 0%;
 }
 
-@media only screen and (min-width: 325px) {
-  #question-view .container {
-      width: 325px;
-      margin: 0 auto;
-  }
-}
 
-@media only screen and (min-width: 600px) {
-  #question-view .container {
-      width: 600px;
-      margin: 0 auto;
-  }
-}
 
-@media only screen and (min-width: 750px) {
-  #question-view .header {
-      display: flex;
-      justify-content: space-between;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+
   }
-}
+
+
+  /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  }
+
+  /* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  /* Styles */
+  }
+  
+
+  /* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  /* Styles */
+  }
+
+
+
 
 
 /* .showoff{
@@ -266,17 +276,17 @@ footer {
   border-left: 40% solid gray; 
   border-bottom: 40% solid rgb(11, 66, 16);
   border-right: 40% solid gray;
-  margin-bottom: 5rem;
+  margin-bottom: 5em;
   margin-right: 10%;
 } */
  
  /* .triangle {
-  width: 40rem;
-  height: 35rem;
+  width: 40em;
+  height: 35em;
   background-color: #FFC400;
-  margin-top: -40rem;
-  margin-bottom: 5rem;
-  margin-right: 5rem;
+  margin-top: -40em;
+  margin-bottom: 5em;
+  margin-right: 5em;
   float: right;
    opacity: 0.4;
   clip-path: polygon(50% 0, 0 100%, 100% 100%);

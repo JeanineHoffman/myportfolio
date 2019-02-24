@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="trial.css">
   <!-- <link rel="html" type="text/html" href="projects.html"> -->
   <!-- <link rel="stylesheet" type="text/css" media="screen" href="projects.css"> -->
   <title>Jeanine Hoffman, Software Engineer</title>
@@ -17,19 +18,21 @@
 <body>
   <!-- need to finish buttons and link to correct
   sections below -->
+  <nav id="nav" class="navbox"  role="navigation">
+  <a href="#bio"> <button class="navbtn" id="1" type="click" aria-roledescription="goto-biography">About Me</button></a>
+<a href="#projects"><button class="navbtn" id="2" type="click" aria-roledescription="Projects">Projects</button></a>
+
+<a href="#container"><button class="navbtn" id="3" type="click" aria-roledescription="Contact Me">Contact Me</button></a>
+<a href="#container"><button class="navbtn" id="4" type="click" aria-roledescription="My Forté">My Forté</button></a>
+</nav>
   <header role="banner">
     <h1>Jeanine Hoffman</h1>
     <p>Software engineer</p>
   </header>
-    <nav id="nav" role="navigation">
-    <a href="#bio"> <button class="navbtn" id="1" type="click" aria-roledescription="goto-biography">About Me</button></a>
-  <a href="#projects"><button class="navbtn" id="2" type="click" aria-roledescription="Projects">Projects</button></a>
-  
-  <a href="#container"><button class="navbtn" id="3" type="click" aria-roledescription="Contact Me">Contact Me</button></a>
-  <a href="#container"><button class="navbtn" id="4" type="click" aria-roledescription="My Forté">My Forté</button></a>
-</nav>
+ <div class="imgcontainer">
 <img class= "pdxbridge" src="img/railbridge.jpeg" alt="picture of the Portland-Milwaukie light rail bridge in Oregon,  spanning one of the rivers.">
-<figcaption>Portland-Milwaukie Light Rail Bridge attr:eloyan.com</figcaption>
+<figcaption class="imageRow">Portland-Milwaukie Light Rail Bridge attr:eloyan.com</figcaption>
+</div>
 <main role="main">
   <article class="bio" id="bio" role="biography">
     <h2>A little about me</h2>
@@ -45,7 +48,7 @@
 <section class="js-projects" id="projects">
   <div class="quiz1">
       <h2>Things I've Built</h2>
-    <ul>
+    <ul class="project-title">
       <h3>Food Origin Quiz</h3>
         <img class="quiz1img" src="img/quizapp1.jpg" alt="picture of a restaurant, tables cloth covered." title="restaurant interior">
     <li class="project-li">The Food Origin quiz app was a project in my Thinkful class and the goal was to use HTML, CSS, and JavaScript while team programming. I worked with a wonderful teammate who also enjoys food so we went with the orgins or peoples favorite dishes. Not only did we learn to build an app together but we learned a little about where different dishes originated</li>
