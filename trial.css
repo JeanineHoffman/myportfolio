@@ -8,7 +8,6 @@
   sans-serif; 
   font-size: 20px;
   color: #444;
-  /* text-align: center; */
   line-height: 2;
   background-color: #E8F5E9;
 } 
@@ -23,11 +22,45 @@ footer {
   figcaption{
     margin-top: -9%;
   }
+  .container{
+    flex-direction: column;
+  }
+  .contact{
+    width: 100%;
+  }
+  .project-li{
+    width: 90%;
+  }
+  .triangle{
+    width: 100%;
+    margin:0;
+  }
+  .quote{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
 }
 
 @media (min-width: 500px) {
+  /* width: 90%; */
+
   figcaption{
     margin-top:-6%
+  }
+  .contact{
+    width: 70%;
+  }
+  .project-li{
+    width:80%;
+  }
+  .triangle{
+    width: 80%;
+  }
+  .quote{
+    width: 100%;
+    font-size: 1.8rem;
+    text-align: justify;
   }
 }
 
@@ -35,5 +68,19 @@ footer {
   figcaption{
     margin-top:-3%
   }
+  .contact{
+    width: 100%;
+  }
+  .container{
+    flex-direction: row;
+    
+  }
+  .triangle{
+    margin-left: 25%;
+  }
+  .quote{
+    width: 80%;
+    font-size: 2rem;
+    text-align: justify;
+  }
 }
-
