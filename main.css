@@ -90,14 +90,14 @@ h2 {
 
   .showprojects{
   display: flexbox;
-  width: 100%;
+  width: 95%;
   background-color: E8F5E9;
   border: 5px solid rgb(40, 95, 19);
   color: #2E7D32;
   text-align: justify;
   margin-top: 15%;
-  margin-right: 0%;
-  margin-left: 25%;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 5%;
   padding: 1rem;
 }
