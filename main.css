@@ -1,11 +1,9 @@
 * {
   box-sizing: border-box;
-  text-decoration: none;
-  display: flexbox;
 }
 
 * body {
-  font-family: 'open dyslexic', 'Exo', 
+  font-family: 'open dyslexic', 'Exo',
   sans-serif; 
   font-size: 20px;
   color: #444;
@@ -51,24 +49,21 @@ header{
   font-size: 2.5rem;
 }
 
-.imgcontainer{
-  display: inline-flexbox;
-}
 .pdxbridge{
   width: 100%;
-  max-height: 18em;
-  margin-top: 15%;
+  max-height: 20em;
+  margin-top: 3%;
 }
 
- figcaption {
-  display: inline-flexbox;
-  width: 100%;
-  color:#2E7D32;
+/* caption {
+  /* display: inline-flexbox; */
+  /* width: 100%;
+  color:aliceblue;
   font-size: .5rem;
-  padding-left: 1rem;
-  margin-top: -9%;
-  margin-bottom: 20%;
-} 
+  margin-top: -10%; */
+  /* padding: .25em 1em;  */
+  /* height: .5em; */
+/* }   */
 
 h2 {
   text-align:center; 
@@ -90,52 +85,85 @@ h2 {
 
 /* projects */
 
-  .showprojects{
-  display: flexbox;
-  width: 95%;
-  background-color: E8F5E9;
+.showprojects{
+  background-color: #E8F5E9;
   border: 5px solid rgb(40, 95, 19);
   color: #2E7D32;
+  display: flex;
+
+}
+
+
+h2{
+  text-align:center; 
+  padding-top: .2em;
+  font-size: 2.3em;
+}
+
+.project-ul{ 
+  /* width: 100%; */
   text-align: justify;
-  margin-top: 15%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  padding: 1rem;
+} 
+.project-ul2{
+  margin-bottom: 2%;
+  padding: 1rem;
+  /* width: 33%; */
+  text-align: justify;
+}
+
+.projimg{
+  width: 25%;
+  height: 26%;
+  border: 2px solid #2E7D32;
+}
+
+.project-title {
+  /* width:100%; */
+  list-style-type: none;
+  margin-top: 1em;
+  font-size: 2.3rem;
   padding: 1rem;
 }
 
+.project-li{
+  width:25%;
+  align-content: center;
+  /* margin: 0, auto; */
+  text-justify: auto;
+  font-size: 1.2rem;
+} 
 
-
-.js-projects h2{
-  margin-bottom: -2em;
-}
 
 .projectsnavbtn{
   background-color: #FBC02D;
   color: #2E7D32;
   font-size: 2rem;
   border:2px solid #2E7D32;
-  border-radius: 5px;
-  margin-bottom: 4%;
-  margin-top: 3%;
+  border-radius: 15px;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
+
 .projectsnavbtn:hover{
   background-color:  #2E7D32;
   color:  #FBC02D;
   font-size: 2rem;
   border:2px solid #FBC02D;
-  border-radius: 5px;
-  margin-bottom: 4%;
-  margin-top: 3%;
+  border-radius: 15px;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
+
 .projectCodebtn{
   background-color: red;
   color: black;
   font-size: 2rem;
   border:2px solid red;
-  border-radius: 5px;
-  margin-bottom: 4%;
-  margin-top: 3%;
+  border-radius: 15px;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
 .projectCodebtn:hover{
@@ -143,53 +171,8 @@ h2 {
   color: red;
   font-size: 2rem;
   border:2px solid black;
-  border-radius: 5px;
-  margin-bottom: 4%;
-  margin-top: 3%;
+  border-radius: 15px;
 }
-
-.showprojects h2{
-  text-align:center; 
-  padding-top: .5em;
-  font-size: 3em;
-}
-
-.quiz1img{
-  width: 10rem;
-  height: 10rem;
-  border: 2px solid #2E7D32;
-  margin-left: 0rem;
-}
-
-ul {
-  width:100%;
-  list-style-type: none;
-  margin-top: 1rem;
-  font-size: 1.3rem;
-  padding: 1rem;
-}
-.project-title{
-  font-size: 2rem;
-}
-
-.project-li{
-  width:25%;
-  margin: 0, auto;
-  font-size: 1.5rem;
-  
-}
-/* .container{
-  display: flexbox;
-  width: 100%;
-  margin-bottom: 1em;
-  margin-top: 1em;
-  display:flex;
-  flex-direction: row;
-  padding: 0;
-  margin-top: 3em;
-  padding: 3em;
-  } */
-
 
 .contact {
   background-color: #E8F5E9;
@@ -220,14 +203,15 @@ ul {
   width: 6em;
   margin-right: 2em;
   margin-left: 3em;
- 
 }
+
 .github {
   height: 6em;
   width: 6em;
   margin-right: 2em;
   margin-left: 3em;
 }
+
 .linkedin{
   height: 6em;
   width: 6em;
@@ -261,8 +245,6 @@ footer {
  border: 1px solid lightgrey;
   margin: 0%;
 }
-
-
 
 
 
