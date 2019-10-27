@@ -1,3 +1,4 @@
-# professional portfolio
+# professional portfolio-Jeanine Hoffman
 
-started for thinkful class.
+## TechStack-basic HTML and CSS with JavaScript
+
