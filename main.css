@@ -3,7 +3,7 @@
 }
 
 * body {
-  font-family: 'open dyslexic', 'Exo',
+  font-family: 'open-dyslexic', 'Exo',
   sans-serif; 
   font-size: 20px;
   color: #444;
@@ -55,16 +55,6 @@ header{
   margin-top: 3%;
 }
 
-/* caption {
-  /* display: inline-flexbox; */
-  /* width: 100%;
-  color:aliceblue;
-  font-size: .5rem;
-  margin-top: -10%; */
-  /* padding: .25em 1em;  */
-  /* height: .5em; */
-/* }   */
-
 h2 {
   text-align:center; 
   padding-top: .5em;
@@ -73,12 +63,13 @@ h2 {
 
 
 .bio {
-  background-color: #DCEDC8;
-  width: 95%;
+  background-color:#E8F5E9;
+  width: 80%;
   margin-top: 8%;
+  text-align: justify;
   text-decoration-color: darkslategrey;
   border: 5px solid #FBC02D;
-  padding: 1em;
+  padding: 2em;
   margin-left: auto;
   margin-right: auto;  
 } 
@@ -89,64 +80,65 @@ h2 {
   background-color: #E8F5E9;
   border: 5px solid rgb(40, 95, 19);
   color: #2E7D32;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+  width:80%;
   margin: 0 auto;
+  padding:4px;
 }
-
-h2{
-  text-align:center; 
-  padding-top: .2em;
-  font-size: 2.3em;
-}
-
-.project-ul{ 
-  /* width: 100%; */
-  text-align: justify;
-  align-self: center;
-  padding: 1rem;
-} 
-/* .project-ul2{
-  margin-bottom: 2%;
-  padding: 1rem;
-  /* width: 33%; */
-  /* text-align: justify; */
-/* }  */
 
 .projimg{
-  width: 200px;
-  height: 200px;
+  width: 15rem;
+  height: 15rem;
   border: 2px solid #2E7D32;
+  margin: 0 auto;
   }
 
-.project-title {
-  /* width:100%; */
-  list-style-type: none;
-  margin: 0 auto;
-  font-size: 2.3rem;
-  padding: 1rem;
+.projimg2{
+  width: 15rem;
+  height: 15rem;
+  border: 2px solid #2E7D32;
+  margin-bottom: 10em;
+  }
+.toolBoxImg{
+  width: 15rem;
+  height: 15rem;
+  border: 2px solid #2E7D32;
+  margin-bottom: 10em;
+  }
+.projectBtnDiv{
+  width: 80%;
+  margin-left: 40%;
+}
+.threeBtnDiv{
+  width: 80%;
+  margin-left: 30%;
+}
+.projTitles {
+  text-align: center;
+  font-size: 1.5em;
+}
+.toolboxTitle{
+  text-align: center;
+  margin-left: 6%;
+  font-size: 1.5em;
+}
+.projectText{
+  display: inline-block;
+  width: 60%;
+  text-align: justify;
+  padding-left: 10%;
+  margin-top:.4em;
 }
 
-.project-li{
-  width:75%;
-  align-content: center;
-  /* margin: 0, auto; */
-  text-justify: auto;
-  font-size: 1.2rem;
-  /* text-align: center; */
-} 
-
-
 .projectsnavbtn{
+  display: inline;
+  align-items: center;
   background-color: #FBC02D;
   color: #2E7D32;
   font-size: 2rem;
   border:2px solid #2E7D32;
   border-radius: 15px;
-  margin-bottom: 1%;
-  margin-top: 1%;
-}
+  text-decoration: none;
+  }
 
 .projectsnavbtn:hover{
   background-color:  #2E7D32;
@@ -179,7 +171,7 @@ h2{
 .contact {
   background-color: #E8F5E9;
   border: 5px solid #d32f2f;
-  width: 20%;
+  width: 45%;
   height: 7%;
   margin-top: 2em;
   margin-bottom: 5em;
@@ -196,7 +188,7 @@ h2{
   height: 3em;
   width: 3em;
   align-items: center;
-  padding:0;
+  padding:4px;
   margin: 0;
 }
 
@@ -221,11 +213,6 @@ h2{
   margin-left: 3em;
 } 
 
-.triangle {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-} 
 
 .quote{
   margin-right: 2em;
@@ -235,7 +222,7 @@ h2{
   margin-top: 0;
   width: 60%;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1em;
   background-color:rgb(40, 95, 19);
   color: #EEEEEE;
   padding: 1em;
@@ -248,32 +235,38 @@ footer {
   margin: 0%;
 }
 
+@media only screen and (min-width: 850px){
+  .contact{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+}
 
-
-/* .showoff{
-  display:flexbox;
-  float: right;
-  width:2px;
-  height:2px;
-  background-color: #FBC02D; 
-  border-top: 40% solid gray;
-  border-left: 40% solid gray; 
-  border-bottom: 40% solid rgb(11, 66, 16);
-  border-right: 40% solid gray;
-  margin-bottom: 5em;
-  margin-right: 10%;
-} */
- 
- /* .triangle {
-  width: 40em;
-  height: 35em;
-  background-color: #FFC400;
-  margin-top: -40em;
-  margin-bottom: 5em;
-  margin-right: 5em;
-  float: right;
-   opacity: 0.4;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  clear: both;
-}     */
-
+@media only screen and (max-width: 450px){
+  .projectBtnDiv{
+    margin: 0 auto;
+  }
+  .threeBtnDiv{
+    margin: 0 auto;
+  }
+  .projectText{
+    width: 80%;
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 5%;
+   
+  }
+  .projimg{
+    margin-left: 5%;
+    }
+  
+  .projimg2{
+    margin-left: 5%;
+    }
+  .toolBoxImg{
+    margin-left: 5%;
+    }
+}
