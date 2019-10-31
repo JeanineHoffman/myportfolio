@@ -17,7 +17,7 @@
   <body>
 
     <nav id="nav" class="navbox">
-      <a href="#bio"> <button class="navbtn" id="1" type="button" aria-roledescription="goto-biography">About
+      <a href="#bio"><button class="navbtn" id="1" type="button" aria-roledescription="goto-biography">About
           Me</button></a>
 
       <a href="#projects"><button class="navbtn" id="2" type="button"
@@ -27,14 +27,14 @@
           Me</button></a>
 
     </nav>
-    <header role="banner">
+    <header>
       <h1>Jeanine Hoffman</h1>
       <p>Software engineer</p>
     </header>
     <div class="quote">
       <article aria-label="A favorite quote">
-        <quote>“I may not have gone where I intended to go, but I think I have ended up where I needed to be.”
-          ― douglas adams, The Long Dark Tea-Time of the Soul</quote>
+        <p>“I may not have gone where I intended to go, but I think I have ended up where I needed to be.”
+          ― douglas adams, The Long Dark Tea-Time of the Soul</p>
       </article>
     </div>
     <div class="imgcontainer">
@@ -43,7 +43,7 @@
       <!-- <caption
   class="imageRow">Portland-Milwaukie Light Rail Bridge attr:eloyan.com</caption> -->
     </div>
-    <main role="main">
+    <main>
       <article class="bio" id="bio" role="biography">
         <h2>A little about me</h2>
 
@@ -56,9 +56,9 @@
 
 
       <section id="projects" class="showprojects">
+        <h2 class="ProjHeader">A Sample of Projects</h2>
         <article  aria-label="projects section">
-          <h2 class="ProjHeader">A Sample of Projects</h2>
-          <div className="proj1">
+          <div class="proj1">
             <h3 class="projTitles">City-Look Up</h3>
             <img class="projimg" src="img/City.png" alt="city skyline." title="cityscape" />
             <p class="projectText">City Look-Up is designed to help people who may be interested in relocating to a new city. The idea is that with a quick search the user will see data on cost of living and quality of life, along with a local map and a random picture from the city's coordinates.<br>This app uses API data from both MapBox and Teleport. The app is built with HTML, CSS, and JS.</p>
@@ -68,7 +68,7 @@
             <a href="https://github.com/JeanineHoffman/City-Look-Up" target="_blank" rel="noopener noreferrer"><button
                 type="button" class="projectCodebtn" aria-label="button to code review">Code for App</button></a></div>
           </div>
-          <div className="proj2">
+          <div class="proj2">
             <h3 class="projTitles">Lesfic Repository</h3>
             <img class="projimg2" src="img/LesficRepo.png" alt="Lesfic Repository landing page"
               title="Lesfic Repository" />
@@ -84,7 +84,7 @@
               rel="noopener noreferrer"><button type="button" class="projectCodebtn"
                 aria-label="button to code review">Server Code</button></a></div>
           </div>
-          <div className="proj3">
+          <div class="proj3">
             <h3 class="toolboxTitle">The Community Toolbox</h3>
             <img class="toolBoxImg" alt="Screenshot of The Community Toolbox app" title="The Community Toolbox"
               src="img/Toolbox.png">
@@ -127,7 +127,7 @@
 
 
     </main>
-    <footer role="contentinfo">Jeanine Hoffman © 2019</footer>
+    <footer>Jeanine Hoffman © 2019</footer>
 
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script src="main.js"></script>
