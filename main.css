@@ -9,6 +9,7 @@
   color: #444;
   line-height: 2;
   background-color: #E8F5E9;
+  text-decoration: none;
 } 
 
 nav,
@@ -36,6 +37,7 @@ footer {
   margin-left: 0;
   font-size: 2rem;
   margin-top: 2rem;
+  text-decoration: none;
 }
 
 
@@ -109,10 +111,12 @@ h2 {
 .projectBtnDiv{
   width: 80%;
   margin-left: 40%;
+  text-decoration: none;
 }
 .threeBtnDiv{
   width: 80%;
   margin-left: 30%;
+  text-decoration: none;
 }
 .projTitles {
   text-align: center;
@@ -140,6 +144,7 @@ h2 {
   border:2px solid #2E7D32;
   border-radius: 15px;
   text-decoration: none;
+  padding: .5% .5%;
   }
 
 .projectsnavbtn:hover{
@@ -150,16 +155,19 @@ h2 {
   border-radius: 15px;
   margin-bottom: 1%;
   margin-top: 1%;
-}
+  }
 
 .projectCodebtn{
   background-color: red;
   color: black;
   font-size: 2rem;
-  border:2px solid red;
+  border:2px solid black;
   border-radius: 15px;
   margin-bottom: 1%;
   margin-top: 1%;
+  text-decoration: none;
+  padding: .5% .5%;
+
 }
 
 .projectCodebtn:hover{
