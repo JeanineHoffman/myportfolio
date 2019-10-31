@@ -89,7 +89,7 @@ h2 {
   width: 15rem;
   height: 15rem;
   border: 2px solid #2E7D32;
-  margin: 0 auto;
+  margin-left:7%;
   }
 
 .projimg2{
@@ -97,12 +97,14 @@ h2 {
   height: 15rem;
   border: 2px solid #2E7D32;
   margin-bottom: 10em;
+  margin-left:7%;
   }
 .toolBoxImg{
   width: 15rem;
   height: 15rem;
   border: 2px solid #2E7D32;
   margin-bottom: 10em;
+  margin-left:7%;
   }
 .projectBtnDiv{
   width: 80%;
