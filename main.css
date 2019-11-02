@@ -30,9 +30,8 @@ nav, footer {
   background-color: #2E7D32;
   color: #EEEEEE;
   padding: 1.5% 1.5%;
-  margin-right: 5%;
   border-radius: 25px;
-  margin-left: 0;
+  margin-left: 17%;
   font-size: 2rem;
   margin-top: 2rem;
   text-decoration: none;
@@ -181,7 +180,7 @@ h2 {
 
 .contact {
   background-color: #E8F5E9;
-  border: 5px solid #d32f2f;
+  /* border: 5px solid #d32f2f; */
   width: 45%;
   height: 7%;
   margin-top: 2em;
@@ -253,6 +252,27 @@ footer {
     padding-top: 2%;
   }
 }
+
+@media only screen and (min-width: 768px){
+  .projectsnavbtn {
+    margin-left: -35%;
+  }
+  .projectText{
+    width:85%;
+  }
+  .projimg {
+    margin-left: 29%;
+  }
+  
+  .projimg2 {
+    margin-left: 29%;
+  }
+  
+  .toolBoxImg {
+    margin-left: 29%;
+  }
+}
+
 
 @media only screen and (max-width: 450px) {
   .projectBtnDiv {

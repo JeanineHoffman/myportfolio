@@ -2,159 +2,156 @@
 <!-- wireframe project -->
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <title>Jeanine Hoffman, Software Engineer</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <title>Jeanine Hoffman, Software Engineer</title>
+</head>
 
-  <body>
+<body>
 
-    <nav id="nav" class="navbox">
+  <!-- <nav id="nav" class="navbox">
       <a href="#bio" class="navbtn" aria-roledescription="goto-biography">About
-        Me</a>
+        Me</a> -->
 
-      <a href="#projects" class="navbtn" aria-roledescription="about me">Projects</a>
+  <a href="#projects" class="navbtn" aria-roledescription="about me">Projects</a>
 
-      <a href="#contact" class="navbtn" aria-roledescription="Contact Me">Contact
-        Me</a>
+  <a href="#contact" class="navbtn" aria-roledescription="Contact Me">Contact
+    Me</a>
 
-    </nav>
-    <header>
-      <h1 class="header">Jeanine Hoffman</h1>
-      <p class=subHeader">Software engineer</p>
-    </header>
-    <div class="quote">
-      <article aria-label="A favorite quote">
-        <p>“I may not have gone where I intended to go, but I think I have ended up where I needed to be.”
-          ― douglas adams, The Long Dark Tea-Time of the Soul</p>
-      </article>
-    </div>
-    <div class="imgcontainer">
-      <img class="pdxbridge" src="img/railbridge.jpeg"
-        alt="picture of the Portland-Milwaukie light rail bridge in Oregon,  spanning one of the rivers.">
-      <!-- <caption
+  </nav>
+  <header>
+    <h1 class="header">Jeanine Hoffman</h1>
+    <p class=subHeader">Software engineer</p>
+  </header>
+  <div class="quote">
+    <article aria-label="A favorite quote">
+      <p>“I may not have gone where I intended to go, but I think I have ended up where I needed to be.”
+        ― Douglas Adams, The Long Dark Tea-Time of the Soul</p>
+    </article>
+  </div>
+  <div class="imgcontainer">
+    <img class="pdxbridge" src="img/railbridge.jpeg"
+      alt="picture of the Portland-Milwaukie light rail bridge in Oregon,  spanning one of the rivers.">
+    <!-- <caption
   class="imageRow">Portland-Milwaukie Light Rail Bridge attr:eloyan.com</caption> -->
-    </div>
-    <main>
-      <article class="bio">
-        <h2>A little about me</h2>
+  </div>
+  <main>
+    <article class="bio">
+      <h2>A little about me</h2>
 
-        <p> My coding school, Thinkful, taught me that we never stop growing or learning. When I'm not finding new
-          drills or code challenges to work, I spend my time in a variety of ways. Living in Portland means access to
-          world class soccer, art, nature, and farmers markets.<br>As a Timbers and Thorns fan, I joined the 107ist
-          Supporters group. I spend some of my time giving back to the community through volunteer activities that
-          support the growth of soccer and equality throughout our area.The 107ist supporters pull together as a team,
-          which is something I've found I enjoy in my experiance with Thinkful's Enigneering Immersion team
-          approach.<br>Programming, especially with an eye towards making things accessible to all, is my current
-          passion. Working with a variety of people in class has helped me find the things I'm good at doing and taught
-          me that it's okay to not know the answer right away. The great thing about tech and me is that we both grow
-          and change with time. Seems like I found my niche.</p>
-        <p>My primary tech stack from Thinkful includes HTML, JS,CSS, React, Node.js, Express, Postgresql. I'm looking
-          forward to expanding on that knowledge and learning more languages.</p>
+      <p> My coding school, Thinkful, taught me that we never stop growing or learning. When I'm not finding new
+        drills or code challenges to work, I spend my time in a variety of ways. Living in Portland means access to
+        world class soccer, art, nature, and farmers' markets.<br><br>As a Timbers and Thorns fan, I joined the 107ist
+        Supporters group. I spend some of my time giving back to the community through volunteer activities that
+        support the growth of soccer and equality throughout our area. The 107ist supporters pull together as a team,
+        which is something I've found I enjoy in my experience with Thinkful's Engineering Immersion team
+        approach.<br><br>Programming, especially with an eye towards making things accessible to all, is my current
+        passion. Working with a variety of people in class has helped me find the things I'm good at doing and taught
+        me that it's okay to not know the answer right away. The great thing about tech and me is that we both grow
+        and change with time. Seems like I found my niche.</p>
+      <p>My primary tech stack from Thinkful includes HTML, JS, CSS, React, Node.js, Express, PostgreSQL. I'm looking
+        forward to expanding on that knowledge and learning more languages.</p>
+    </article>
+    <a href="#nav" class="top">
+      <p>top</p>
+    </a>
+
+
+    <section id="projects" class="showprojects">
+      <h2 class="ProjHeader">A Sample of Projects</h2>
+      <article aria-label="projects section">
+        <div class="proj1">
+          <h3 class="projTitles">City Look-Up</h3>
+          <img class="projimg" src="img/City.png" alt="city skyline." title="cityscape" />
+          <p class="projectText">City Look-Up is designed to help people who may be interested in relocating to a new
+            city. The idea is that with a quick search the user will see data on cost of living and quality of life,
+            along with a local map and a random picture from the city's coordinates.<br><br>This app uses API data from
+            both MapBox and Teleport. The app is built with HTML, CSS, and JS.</p>
+          <div class="projectBtnDiv">
+            <a href=" https://jeaninehoffman.github.io/CityLookUp/" target="_blank" rel="noopener noreferrer"
+              class="projectsnavbtn" aria-label="City look up button">Give it a shot</a>
+            <a href="https://github.com/JeanineHoffman/City-Look-Up" target="_blank" rel="noopener noreferrer"
+              class="projectCodebtn" aria-label="button to code review">Code for App</a>
+          </div>
+        </div>
+        <div class="proj2">
+          <h3 class="projTitles">Lesfic Repository</h3>
+          <img class="projimg2" src="img/LesficRepo.png" alt="Lesfic Repository landing page"
+            title="Lesfic Repository" />
+          <p class="projectText">For readers of genres that don't make the mainstream marketing cut, it can be tough
+            to find the books that you're looking for when searching places like Amazon. I'm and both a reader and
+            writer of lesbian fiction (lesfic) and I've searched countless times for new works in lesbian paranormal
+            fiction and come up with countless books featuring men. Not what I asked for-thanks anyway.<br><br>My
+            frustration with a lack of a solid catalogue of strictly stories that feature women who identify as
+            lesbians became a goal to create such a repository. I'm planning on crowd-sourcing the work of filling the
+            database to the Golden Crown Literary Society-an Organization I've been a proud member of for years and
+            whose sole mission is to promote the entire genre of lesbian writing.</p>
+          <div class="threeBtnDiv">
+            <a href="https://lesfic-rate-your-reads-git-master.jeaninehoffman.now.sh/" target="_blank"
+              rel="noopener noreferrer" class="projectsnavbtn" aria-label="lesfic app button">Give
+              it a shot</a>
+            <a href="https://github.com/JeanineHoffman/LesFic-Rate-Your-Reads.git" target="_blank"
+              rel="noopener noreferrer" class="projectCodebtn" aria-label="button to code review">Client Code</a>
+            <a href="https://github.com/JeanineHoffman/lesfic-server.git" target="_blank" rel="noopener noreferrer"
+              class="projectCodebtn" aria-label="button to code review">Server Code</a>
+          </div>
+        </div>
+        <div class="proj3">
+          <h3 class="toolboxTitle">The Community Toolbox</h3>
+          <img class="toolBoxImg" alt="Screenshot of The Community Toolbox app" title="The Community Toolbox"
+            src="img/Toolbox.png">
+          <p class="projectText"> The Community Toolbox is an app that allows community-run lending libraries work
+            more efficiently in their areas. With slight adaptations the app is designed to help users find the tools
+            they need for home improvement and garden/lawn care tasks without the investment cost and need for storage
+            of seldom used, bulky tools.<br><br>This was a team Capstone project during which I worked as project
+            manager
+            for my five person team. We thankfully had a team member well versed in design. In three weeks we managed
+            to do an extensive app involving predictive text search, building a multi table database, public and
+            private routing, JWT auth, and integrated the use of Cloudinary and Google Maps API. Our demo is availble
+            with the user name and the password as Demo.</p>
+          <div class="threeBtnDiv">
+            <a href="https://toolbox-client-git-master.teamredpanda.now.sh/" target="_blank" rel="noopener noreferrer"
+              class="projectsnavbtn" aria-label="Toolbox app button">Give it a shot</a>
+            <a href="https://github.com/CommunityTB/toolbox-client.git" target="_blank" rel="noopener noreferrer"
+              class="projectCodebtn" aria-label="button to code review">Client Code</a>
+            <a href="https://github.com/CommunityTB/toolbox-server.git" target="_blank" rel="noopener noreferrer"
+              class="projectCodebtn" aria-label="button to code review">Server Code</a>
+          </div>
+        </div>
       </article>
-      <a href="#nav" class="top">
-        <p>top</p>
-      </a>
+
+    </section>
+
+    <a href="#nav" class="top">
+      <p>top</p>
+    </a>
 
 
-      <section id="projects" class="showprojects">
-        <h2 class="ProjHeader">A Sample of Projects</h2>
-        <article aria-label="projects section">
-          <div class="proj1">
-            <h3 class="projTitles">City-Look Up</h3>
-            <img class="projimg" src="img/City.png" alt="city skyline." title="cityscape" />
-            <p class="projectText">City Look-Up is designed to help people who may be interested in relocating to a new
-              city. The idea is that with a quick search the user will see data on cost of living and quality of life,
-              along with a local map and a random picture from the city's coordinates.<br>This app uses API data from
-              both MapBox and Teleport. The app is built with HTML, CSS, and JS.</p>
-            <div class="projectBtnDiv">
-              <a href=" https://jeaninehoffman.github.io/CityLookUp/" target="_blank" rel="noopener noreferrer"
-                class="projectsnavbtn" aria-label="City look up button">Give it a shot</a>
-              <a href="https://github.com/JeanineHoffman/City-Look-Up" target="_blank" rel="noopener noreferrer"
-                class="projectCodebtn" aria-label="button to code review">Code for App</a>
-            </div>
-          </div>
-          <div class="proj2">
-            <h3 class="projTitles">Lesfic Repository</h3>
-            <img class="projimg2" src="img/LesficRepo.png" alt="Lesfic Repository landing page"
-              title="Lesfic Repository" />
-            <p class="projectText">For readers of genres that don't make the mainstream marketing cut, it can be tough
-              to find the books that you're looking for when searching places like Amazon. I'm and both a reader and
-              writer of lesbian fiction (lesfic) and I've searched countless times for new works in lesbian paranormal
-              fiction and come up with countless books featuring men. Not what I asked for-thanks anyway.<br>My
-              frustration with a lack of a solid catalogue of strictly stories that feature women who identify as
-              lesbians became a goal to create such a repository. I'm planning on crowd-sourcing the work of filling the
-              database to the Golden Crown Literary Society-an Organization I've been a proud member of for years and
-              whose sole mission is to promote the entire genre of lesbian writing.</p>
-            <div class="threeBtnDiv">
-              <a href="https://lesfic-rate-your-reads-git-master.jeaninehoffman.now.sh/" target="_blank"
-                rel="noopener noreferrer" class="projectsnavbtn" aria-label="lesfic app button">Give
-                it a shot</a>
-              <a href="https://github.com/JeanineHoffman/LesFic-Rate-Your-Reads.git" target="_blank"
-                rel="noopener noreferrer" class="projectCodebtn" aria-label="button to code review">Client Code</a>
-              <a href="https://github.com/JeanineHoffman/lesfic-server.git" target="_blank" rel="noopener noreferrer"
-                class="projectCodebtn" aria-label="button to code review">Server Code</a>
-            </div>
-          </div>
-          <div class="proj3">
-            <h3 class="toolboxTitle">The Community Toolbox</h3>
-            <img class="toolBoxImg" alt="Screenshot of The Community Toolbox app" title="The Community Toolbox"
-              src="img/Toolbox.png">
-            <p class="projectText"> The Community Toolbox is an app that allows community run lending libraries work
-              more efficiently in their areas. With slight adaptations the app is designed to help users find the tools
-              they need for home improvement and garden/lawn care tasks without the investment cost and need for storage
-              of seldom used, bulky tools.<br>This was a team Capstone project during which I worked as project manager
-              for my five person team. We thankfully had a team member well versed in design. In three weeks we managed
-              to do an extensive app involving predictive text search, building a multi table database, public and
-              private routing, JWT auth, and integrated the use of Cloudinary and Google Maps API.OUr demo is availble
-              with the user name and the password as Demo.</p>
-            <div class="threeBtnDiv">
-              <a href="https://toolbox-client-git-master.teamredpanda.now.sh/" target="_blank" rel="noopener noreferrer"
-                class="projectsnavbtn" aria-label="Toolbox app button">Give it a shot</a>
-              <a href="https://github.com/CommunityTB/toolbox-client.git" target="_blank" rel="noopener noreferrer"
-                class="projectCodebtn" aria-label="button to code review">Client Code</a>
-              <a href="https://github.com/CommunityTB/toolbox-server.git" target="_blank" rel="noopener noreferrer"
-                class="projectCodebtn" aria-label="button to code review">Server Code</a>
-            </div>
-          </div>
-        </article>
-
-      </section>
-
-      <a href="#nav" class="top">
-        <p>top</p>
-      </a>
+    <section class="contact" id="contact">
+      <a href="mailto:jeaninehoffman42@gmail.com" target="_blank">
+        <img class="email" src="img/email.jpeg" alt="email link"></a>
+      <a href="https://github.com/JeanineHoffman" target="_blank">
+        <img class="github" src="img/github.png" alt="Github link"></a>
+      <a href="https://www.linkedin.com/in/jeanine-hoffman42" target="_blank">
+        <img class="linkedin" src="img/linkedin.jpeg" alt="LinkedIn link"></a>
+    </section>
 
 
-      <section class="contact" id="contact">
-        <h2>Find me:</h2>
-        <a href="mailto:jeaninehoffman42@gmail.com" target="_blank">
-          <img class="email" src="img/email.jpeg" alt="email link"></a>
-        <a href="https://github.com/JeanineHoffman" target="_blank">
-          <img class="github" src="img/github.png" alt="Github link"></a>
-        <a href="https://www.linkedin.com/in/jeanine-hoffman42" target="_blank">
-          <img class="linkedin" src="img/linkedin.jpeg" alt="LinkedIn link"></a>
-      </section>
+    <!-- </div> -->
+    <a href="#nav" class="top">
+      <p>top</p>
+    </a>
 
 
-      <!-- </div> -->
-      <a href="#nav" class="top">
-        <p>top</p>
-      </a>
-
-
-    </main>
-    <footer>Jeanine Hoffman © 2019</footer>
-
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+  </main>
+  <footer>Jeanine Hoffman © 2019</footer>
+</body>
 
 </html>
